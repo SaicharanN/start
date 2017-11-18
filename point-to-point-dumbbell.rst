@@ -25,6 +25,7 @@ packet sent. That is, we do not model Flag Sequences, Frame Check Sequences nor
 do we "escape" any data.
 
 PointToPointDumbbellHelper has the following variables in as it's attributes :
+
 * leftLeaf               - a NodeContainer stores Left Leaf nodes
 *  m_leftLeafDevices        - a NetDeviceContainer stores Left Leaf NetDevices
 *  m_rightLeaf              - a NodeContainer stores Right Leaf nodes
@@ -43,6 +44,7 @@ PointToPointDumbbellHelper has the following variables in as it's attributes :
 *  m_rightLeafInterfaces6   - an Ipv6InterfaceContainer stores Right Leaf interfaces (IPv6)
 *  m_rightRouterInterfaces6  - an Ipv6InterfaceContainer stores Right router interfaces (IPv6)
 *  m_routerInterfaces6       - an Ipv6InterfaceContainer storing Router interfaces (IPv6)
+
 
 Using the PointToPointDumbbellHelper
 ************************************
