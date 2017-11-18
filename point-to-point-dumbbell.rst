@@ -28,7 +28,7 @@ packet sent. That is, we do not model Flag Sequences, Frame Check Sequences nor
 do we "escape" any data.
 
 PointToPointDumbbellHelper has the following variables in as it's attributes :
-* m_leftLeaf               - a NodeContainer stores Left Leaf nodes
+* leftLeaf               - a NodeContainer stores Left Leaf nodes
 *  m_leftLeafDevices        - a NetDeviceContainer stores Left Leaf NetDevices
 *  m_rightLeaf              - a NodeContainer stores Right Leaf nodes
 *  m_rightLeafDevices       - a NetDeviceContainer stores Right Leaf NetDevices
